@@ -1,3 +1,4 @@
+annotated-types==0.7.0
 anyio==4.9.0
 argon2-cffi==25.1.0
 argon2-cffi-bindings==21.2.0
@@ -15,6 +16,10 @@ comm==0.2.2
 debugpy==1.8.14
 decorator==5.2.1
 defusedxml==0.7.1
+distro==1.9.0
+dotenv==0.9.9
+elastic-transport==8.17.1
+elasticsearch==7.17.0
 exceptiongroup==1.3.0
 executing==2.2.0
 fastjsonschema==2.21.1
@@ -33,6 +38,7 @@ ipywidgets==8.1.7
 isoduration==20.11.0
 jedi==0.19.2
 jinja2==3.1.6
+jiter==0.10.0
 joblib==1.5.1
 json5==0.12.0
 jsonpointer==3.0.0
@@ -52,6 +58,7 @@ jupyterlab-server==2.27.3
 jupyterlab-widgets==3.0.15
 markupsafe==3.0.2
 matplotlib-inline==0.1.7
+minsearch==0.0.3
 mistune==3.1.3
 mpmath==1.3.0
 nbclient==0.10.2
@@ -76,6 +83,7 @@ nvidia-cusparselt-cu12==0.6.3
 nvidia-nccl-cu12==2.26.2
 nvidia-nvjitlink-cu12==12.6.85
 nvidia-nvtx-cu12==12.6.77
+openai==1.90.0
 overrides==7.7.0
 packaging==25.0
 pandas==2.3.0
@@ -89,8 +97,11 @@ psutil==7.0.0
 ptyprocess==0.7.0
 pure-eval==0.2.3
 pycparser==2.22
+pydantic==2.11.7
+pydantic-core==2.33.2
 pygments==2.19.2
 python-dateutil==2.9.0.post0
+python-dotenv==1.1.0
 python-json-logger==3.3.0
 pytz==2025.2
 pyyaml==6.0.2
@@ -101,6 +112,7 @@ requests==2.32.4
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rpds-py==0.25.1
+ruff==0.12.0
 safetensors==0.5.3
 scikit-learn==1.7.0
 scipy==1.15.3
@@ -124,9 +136,10 @@ transformers==4.52.4
 triton==3.3.1
 types-python-dateutil==2.9.0.20250516
 typing-extensions==4.14.0
+typing-inspection==0.4.1
 tzdata==2025.2
 uri-template==1.3.0
-urllib3==2.5.0
+urllib3==1.26.20
 wcwidth==0.2.13
 webcolors==24.11.1
 webencodings==0.5.1
