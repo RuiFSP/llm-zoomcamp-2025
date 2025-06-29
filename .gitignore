@@ -176,3 +176,5 @@ cython_debug/
 .env
 env_llm
 social_media
+02-vector-search/qdrant_storage
+02-vector-search/class_materials/qdrant_storage

@@ -5,7 +5,7 @@
 Track my progress through the LLM Zoomcamp 2025 cohort:
 
 - ✅ **Module 1**: Introduction to LLMs and RAG - Completed on June 2025
-- 🔲  **Module 2**: Vector Search
+- ✅ **Module 2**: Vector Search - Completed on June 2025
 - 🔲 **Workshop**: Open-Source Data Ingestion
 - 🔲 **Module 3**: Evaluation
 - 🔲 **Module 4**: Monitoring
@@ -36,3 +36,27 @@ In this module, I learned the fundamentals of:
 - Implemented a Q&A system for answering questions about Zoomcamp course FAQs
 - Worked with Elasticsearch 8.x for document indexing and retrieval
 - Created structured prompts with retrieved context for accurate LLM responses
+
+### Module 2: Vector Search
+
+In this module, I learned about vector-based search techniques:
+
+- **Embedding Models**: Working with models like Jina and BAAI/bge to convert text into numerical vectors
+- **Semantic Similarity**: Calculating cosine similarity between embeddings to find related content
+- **Vector Databases**: Setting up and using Qdrant for efficient vector storage and retrieval
+- **Search Optimization**: 
+  - Comparing results from different text fields (text-only vs. question + text)
+  - Evaluating the impact of embedding model selection on search quality
+  - Understanding dimensionality trade-offs in vector embeddings
+- **Hybrid Search**: Combining dense vector search with sparse/keyword-based approaches like BM25
+- **End-to-End Vector Search Pipeline**: Building a complete system that:
+  - Processes and embeds documents with combined fields
+  - Indexes vectors in a specialized vector database
+  - Retrieves semantically similar documents based on user queries
+  - Ranks results by relevance scores
+
+**Projects & Homework**:
+- Built a vector search system using Qdrant and FastEmbed
+- Experimented with different embedding models and dimensions
+- Analyzed how field selection impacts search relevance
+- Created a production-ready vector search collection for ML Zoomcamp FAQs
