@@ -6,7 +6,7 @@ Track my progress through the LLM Zoomcamp 2025 cohort:
 
 - ✅ **Module 1**: Introduction to LLMs and RAG - Completed on June 2025
 - ✅ **Module 2**: Vector Search - Completed on June 2025
-- 🔲 **Workshop**: Open-Source Data Ingestion
+- ✅ **Workshop**: Open-Source Data Ingestion - Completed on July 2025
 - 🔲 **Module 3**: Evaluation
 - 🔲 **Module 4**: Monitoring
 - 🔲 **Module 5**: Best Practices
@@ -60,3 +60,28 @@ In this module, I learned about vector-based search techniques:
 - Experimented with different embedding models and dimensions
 - Analyzed how field selection impacts search relevance
 - Created a production-ready vector search collection for ML Zoomcamp FAQs
+
+### Workshop: Open-Source Data Ingestion
+
+In this workshop, I learned about data ingestion tools for RAG applications:
+
+- **DLT (Data Loading Tool)**: Working with a Python library for building robust data pipelines
+  - Creating resource definitions for data extraction
+  - Configuring destinations for vector database integration
+  - Running pipelines to extract, transform, and load document data
+- **Qdrant Integration**: Setting up Qdrant as a vector database destination
+  - Using local storage for development environments
+  - Understanding collection metadata and configuration
+- **Embeddings Generation**: Automatic embedding using models like "fast-bge-small-en"
+  - Analyzing model configurations (384-dimensional vectors, cosine distance)
+  - Understanding how embeddings are stored and indexed
+- **Cognee**: Working with knowledge graph navigation and search
+  - Different search types (GRAPH_COMPLETION, RAG_COMPLETION)
+  - Using NodeSets for focused searches
+  - Querying API documentation with semantic understanding
+
+**Projects & Homework**:
+- Built a data pipeline to load 948 Zoomcamp FAQ documents into Qdrant
+- Analyzed embedding model configuration in Qdrant metadata
+- Experimented with knowledge graph search using Cognee
+- Set up a complete RAG-ready dataset for question answering
