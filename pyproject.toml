@@ -4,4 +4,8 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "fastmcp>=2.10.6",
+    "markdown>=3.8.2",
+    "minsearch>=0.0.4",
+]
